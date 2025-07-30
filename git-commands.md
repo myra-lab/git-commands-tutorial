@@ -1,11 +1,12 @@
 
 
+
 # Key Git Commands
 
 ## Configuring Git
 
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+git config --global user.name "myra-lab"
+git config --global user.email "myra.rivera@pnc.com"
 
 
 ## Initializing a Repository
@@ -15,7 +16,7 @@ git init
 
 ## Cloning a Repository
 
-git clone https://github.com/your-username/repository.git
+git clone https://github.com/your-myra-lab/repository.git
 
 
 ## Staging and Committing Changes
