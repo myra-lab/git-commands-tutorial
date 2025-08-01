@@ -1,4 +1,3 @@
-# finapi_yourname_build.yml
 name: api-1.0.$(Build.BuildId)
 
 trigger:
@@ -32,4 +31,3 @@ steps:
     publishLocation: 'pipeline'
   displayName: 'Publish api Pipeline Artifact'
   condition: and(succeeded(), ne(variables['skip_build'], 'true'))
-
